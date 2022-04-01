@@ -30,7 +30,8 @@ void  Computer::print()
 }
 int main(void)
 {
-	Computer pc1;  //类实例化
+	
+    Computer pc1;  // 计算机类实例化
 	pc1.setPrice(4000);
 	pc1.setBrand("Thinkpad");
 	pc1.print();
